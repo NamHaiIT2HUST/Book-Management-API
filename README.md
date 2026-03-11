@@ -129,6 +129,3 @@ curl -X POST http://127.0.0.1:8000/books \
 - Run multiple workers: `uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4`
 - Put Nginx/Apache in front to serve `/static`.
 - Configure production DB via env vars or by editing `app/core/config.py` and `alembic.ini`.
-
-## YouTube video
-Watch here: [my link](https://www.youtube.com/@dienne248)
